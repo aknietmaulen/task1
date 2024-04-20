@@ -1,7 +1,7 @@
 use my_lib_akniet::{MyVec, SortingAlgorithm, Sortable};
 
 fn main() {
-    let mut numbers = MyVec(vec![4, 2, 5, 1, 3, 4, 2, 0]);
+    let mut numbers = MyVec(vec![4, 2, 5, -90, -4, 1, 3, 4, 2, 0]);
 
     // sort using quick sort
     numbers.sort(SortingAlgorithm::QuickSort, |a, b| a < b);
@@ -12,13 +12,17 @@ fn main() {
     println!("After select sort: {:?}", numbers.0);
 
     // sort using insert sort
-    numbers.sort(SortingAlgorithm::InsertSort, |a, b| a > b);
+    numbers.sort(SortingAlgorithm::InsertSort, |a, b| a < b);
     println!("After insert sort: {:?}", numbers.0);
 
     // sort using merge sort
-    numbers.sort(SortingAlgorithm::MergeSort, |a, b| a > b);
+    numbers.sort(SortingAlgorithm::MergeSort, |a, b| a < b);
     println!("After merge sort: {:?}", numbers.0);
 }
+
+
+
+
 
 
 
