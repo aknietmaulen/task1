@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-my_lib = { path = "C:\\Users\\Akniet\\projects\\my_lib" }
+my_lib_akniet = "0.1.0"
 

@@ -1,4 +1,4 @@
-use my_lib::{MyVec, SortingAlgorithm, Sortable};
+use my_lib_akniet::{MyVec, SortingAlgorithm, Sortable};
 
 fn main() {
     let mut numbers = MyVec(vec![4, 2, 5, 1, 3, 4, 2, 0]);

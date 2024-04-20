@@ -3,12 +3,14 @@
 version = 3
 
 [[package]]
-name = "my_lib"
+name = "my_lib_akniet"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2adcb7cc2b13cedbd54ea57d608b8be35584185eff7e1ee1a693ae8846ff9d1e"
 
 [[package]]
 name = "task1"
 version = "0.1.0"
 dependencies = [
- "my_lib",
+ "my_lib_akniet",
 ]
