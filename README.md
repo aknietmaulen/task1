@@ -48,6 +48,6 @@ For additional information and detailed usage examples, consult the documentatio
 ### Usage Examples
 Sorting functions can be applied:
 
-Sorting a list of integers(screenshot1).
-Sorting a list of strings(screenshot1).
-Sorting a list of custom structs based on a specific field(screenshot2).
+- Sorting a list of integers(screenshot1).
+- Sorting a list of strings(screenshot1).
+- Sorting a list of custom structs based on a specific field(screenshot2).
